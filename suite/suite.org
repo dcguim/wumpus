@@ -1,0 +1,22 @@
+Test Suite
+* DONE w1: Basic comprehension - Simple 3x3 World without Pits
+  Goals: 
+** Walk always straight
+** widen the mental model of the world
+** infer about the consequences of the (in)existence of Stenches
+** create a hypothetical model to treat inferences on the partial known world
+* DONE w1: Intermediary comprehension - Simple 3x3 World without Pits
+  Goals: 
+** Turn when bumping
+** infer the position of the wumpus
+** after found the position of the wumpus stop infering about stenches
+* DONE w1,w2: Basic actions - 3x3 World without Pits
+** kill wumpus
+** Reason about safe cells
+* DONE w3: Intermediary actions - 3x3 World without Pits
+** Explore safe position instead of risking walking into PW cell
+** Calculate costs, and select the unexplored safe cell of minimum cost to travel to
+** Travel to a given safe cell
+** Remove the task of leave, because it can be thought of as traveling
+
+
